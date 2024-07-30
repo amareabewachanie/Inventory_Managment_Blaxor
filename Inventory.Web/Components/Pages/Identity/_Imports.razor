@@ -1,0 +1,11 @@
+﻿@using Inventory.Application.Service.Identity
+@using Inventory.Web.Components.Layout.Identity
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal
+@using Inventory.Application.DTO.Request.Identity
+@layout AuthenticationLayout
+
+@attribute [AllowAnonymous]
+@inject IAccountService AccountService
+
